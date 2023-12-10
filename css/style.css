@@ -743,7 +743,7 @@ span {
     }
 
     .home .profession-box .profession:nth-child(1) {
-        transform: rotate(-90deg) translate(-120px, -210px);
+        transform: rotate(-90deg) translate(-150px, -250px);
     }
 
     .home .profession-box .profession:nth-child(1) i {
@@ -751,7 +751,7 @@ span {
     }
 
     .home .profession-box .profession:nth-child(1) {
-        transform: rotate(0deg) translate(0, -325px);
+        transform: rotate(0deg) translate(0, -300px);
     }
 
     .home .profession-box .profession:nth-child(3) {
@@ -759,19 +759,19 @@ span {
     }
 
     .home .profession-box .profession:nth-child(2) {
-        transform: rotate(180deg) translate(-220px, -325px);
+        transform: rotate(180deg) translate(-220px, -300px);
     }
 
     .home .profession-box .circle {
         position: fixed;
-        width: 670px;
-        height: 670px;
+        width: 600px;
+        height: 600px;
         z-index: -1;
     }
 
     .home .profession-container .overlay {
         position: fixed;
-        top: 70rem;
+        top: 100rem;
         left: 50%;
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
@@ -793,7 +793,7 @@ span {
     }
 }
 
-@media (max-width :58px ) {
+@media (max-width :458px ) {
     .portfolio .portfolio-container {
         grid-template-columns: 1fr;
     }
